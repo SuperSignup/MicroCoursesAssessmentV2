@@ -1,0 +1,125 @@
+:root {
+    --color-primary: #e47200;
+    --color-secondary: #00aaff;
+    --color-light: #ececec;
+    --color-dark: #2c2c2c;
+
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.title {
+    color: var(--color-dark);
+    text-shadow: 0px 1.5px var(--color-primary);
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h1 {
+    color: var(--color-dark);
+    text-shadow: 0px 1.5px var(--color-primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--color-dark);
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+}
+
+span {
+    text-align: left;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+li {
+    text-align: left;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px var(--color-secondary);
+}
+
+.icon {
+    max-width: 100%;
+    width: auto;
+    height: 1rem;
+    border: none;
+    box-shadow: none;
+    vertical-align: bottom;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.titleContainer h1 {
+    margin-top: auto;
+    margin-left: 1rem;
+}
+
+.courseDisplay {
+    border: 2px solid var(--color-primary);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.enrolButton {
+    float: right;
+}
+
+button {
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    color: var(--color-light);
+    font-weight: bolder;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: none;
+    margin: 0.5rem;
+    
+}
+
+button:hover {
+    background-color: var(--color-secondary);
+    box-shadow: 0px 2px var(--color-primary);
+}
+
+button:active {
+    background-color: var(--color-dark);
+}
+
+li {
+    padding-left: 0.5rem;
+}

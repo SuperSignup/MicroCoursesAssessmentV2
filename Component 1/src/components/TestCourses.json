@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 1,
+        "title": "Cooking Basics",
+        "imageSrc": "cooking.png",
+        "descShort": "Learn the basics of cooking!",
+        "descLong": "Become a beginner cook with our short course, learn basic hygine, knife skills, and food preparation techniques.",
+        "hoursToComplete": 80,
+        "duration": "7 - 8 weeks",
+        "instructor": "Sam Cutter",
+        "category": "Food",
+        "listOfModules": [
+            "Knife Work",
+            "Can I Eat This?",
+            "Food Hygine"
+        ]
+    },
+    {
+        "_id": 2,
+        "title": "Pro Gaming",
+        "imageSrc": "gaming.png",
+        "descShort": "Learn to play.",
+        "descLong": "Learn how to engage and play with this couse designed to bring you to the heights of professional gaming.",
+        "hoursToComplete": 60,
+        "duration": "2 - 6 weeks",
+        "instructor": "John Halo",
+        "category": "Technology",
+        "listOfModules": [
+            "Controller Mastery",
+            "CPS and Micro",
+            "Callouts"
+        ]
+    },
+    {
+        "_id": 3,
+        "title": "Woodworking 101",
+        "imageSrc": "woodworking.png",
+        "descShort": "Learn to the basics of hand-tool woodworking.",
+        "descLong": "Safely learn the basics of working with hand tools to manipulate and shape wood. Properly learn to identify the properties of different species and gain hands-on experience with tool sharpening and maintenance.",
+        "hoursToComplete": 20,
+        "duration": "4 weeks",
+        "instructor": "Rose Cedar",
+        "category": "Woodworking",
+        "listOfModules": [
+            "Is this wood?",
+            "Softwoods vs Hardwoods",
+            "How to Sharpen"
+        ]
+    },
+    {
+        "_id": 4,
+        "title": "Watercolour Painting",
+        "imageSrc": "watercolour.png",
+        "descShort": "Join us as we paint with watercolours.",
+        "descLong": "From beginner to expert, all are welcome to come and join us as we discover and experiment with watercolour painting. Learn new watercolour techniques or just come to socialise, we are an inclusive class aimed at all skill ranges.",
+        "hoursToComplete": 20,
+        "duration": "8 - 10 weeks",
+        "instructor": "Rob Boss",
+        "category": "Art",
+        "listOfModules": [
+            "The history of pigments",
+            "Advanced techniques",
+            "Choosing the right paper"
+        ]
+    }
+]
