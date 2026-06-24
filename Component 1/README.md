@@ -9,4 +9,4 @@ npm install
 ```
 npm run dev
 ```
-Webpage at http://localhost:5173
+Webpage available at http://localhost:5173
