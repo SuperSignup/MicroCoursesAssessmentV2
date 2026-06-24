@@ -8,7 +8,7 @@ cd ..
 cd frontend
 npm install
 ```
-Place the server.env inside the backend folder
+Place the server.env file in the backend folder
 
 ## Get Started:
 
