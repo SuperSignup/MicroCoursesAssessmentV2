@@ -4,6 +4,7 @@
 ```
 npm install
 ```
+Place the 'server.env' file in the 'Component 2' folder
 
 ## Get Started:
 ```
